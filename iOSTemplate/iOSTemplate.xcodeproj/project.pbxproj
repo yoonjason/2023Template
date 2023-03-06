@@ -13,6 +13,7 @@
 		1C6EBF3529A5EE72004EF81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EBF3429A5EE72004EF81B /* Assets.xcassets */; };
 		1C6EBF3829A5EE72004EF81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EBF3629A5EE72004EF81B /* LaunchScreen.storyboard */; };
 		1C6EBF4129A5F554004EF81B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EBF4029A5F554004EF81B /* NetworkManager.swift */; };
+		1C97FB6429B5CBDA008EF155 /* ys_networking in Frameworks */ = {isa = PBXBuildFile; productRef = 1C97FB6329B5CBDA008EF155 /* ys_networking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C97FB6429B5CBDA008EF155 /* ys_networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +93,9 @@
 			dependencies = (
 			);
 			name = iOSTemplate;
+			packageProductDependencies = (
+				1C97FB6329B5CBDA008EF155 /* ys_networking */,
+			);
 			productName = iOSTemplate;
 			productReference = 1C6EBF2829A5EE71004EF81B /* iOSTemplate.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 1C6EBF1F29A5EE71004EF81B;
+			packageReferences = (
+				1C97FB6229B5CBDA008EF155 /* XCRemoteSwiftPackageReference "ys_networking" */,
+			);
 			productRefGroup = 1C6EBF2929A5EE71004EF81B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -366,6 +374,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C97FB6229B5CBDA008EF155 /* XCRemoteSwiftPackageReference "ys_networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yoonjason/ys_networking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C97FB6329B5CBDA008EF155 /* ys_networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C97FB6229B5CBDA008EF155 /* XCRemoteSwiftPackageReference "ys_networking" */;
+			productName = ys_networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C6EBF2029A5EE71004EF81B /* Project object */;
 }

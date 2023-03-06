@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ys_networking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yoonjason/ys_networking",
+      "state" : {
+        "revision" : "47cbc37924aaddd50fede417cc047bf569da3d91",
+        "version" : "1.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}

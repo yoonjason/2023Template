@@ -12,9 +12,9 @@ enum NetworkError: Error {
     case invalid
 }
 
-final class NetworkManager {
+final class NetworkManager2 {
 
-    let shared = NetworkManager()
+    let shared = NetworkManager2()
 
     let session = URLSession.shared
 
