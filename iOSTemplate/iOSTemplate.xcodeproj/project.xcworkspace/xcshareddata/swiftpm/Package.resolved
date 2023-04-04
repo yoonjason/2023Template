@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
+      "identity" : "ys_coordinator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yoonjason/ys_coordinator",
+      "state" : {
+        "revision" : "83fcba8a8a0c2130d6bb22342baa604e6ca9bbf5",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "ys_networking",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/yoonjason/ys_networking",
       "state" : {
-        "revision" : "47cbc37924aaddd50fede417cc047bf569da3d91",
-        "version" : "1.0.4"
+        "revision" : "246a23f5f66a2e8928a097024544479ebc876895",
+        "version" : "1.0.7"
       }
     }
   ],

@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1850DA29DA6BA100274527 /* ys_coordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 1C1850D929DA6BA100274527 /* ys_coordinator */; };
+		1C1850DF29DA6D1B00274527 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1850DE29DA6D1B00274527 /* AppCoordinator.swift */; };
+		1C1850E229DA6EFE00274527 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1850E129DA6EFE00274527 /* MainViewController.swift */; };
+		1C1850E729DA71E000274527 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1850E629DA71E000274527 /* MainCoordinator.swift */; };
+		1C1850EA29DA9E1400274527 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1850E929DA9E1400274527 /* MainNavigationController.swift */; };
+		1C66EED329D4ED1B00D46776 /* ys_networking in Frameworks */ = {isa = PBXBuildFile; productRef = 1C66EED229D4ED1B00D46776 /* ys_networking */; };
 		1C6EBF2C29A5EE71004EF81B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EBF2B29A5EE71004EF81B /* AppDelegate.swift */; };
 		1C6EBF3029A5EE71004EF81B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EBF2F29A5EE71004EF81B /* ViewController.swift */; };
 		1C6EBF3329A5EE71004EF81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EBF3129A5EE71004EF81B /* Main.storyboard */; };
 		1C6EBF3529A5EE72004EF81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EBF3429A5EE72004EF81B /* Assets.xcassets */; };
 		1C6EBF3829A5EE72004EF81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EBF3629A5EE72004EF81B /* LaunchScreen.storyboard */; };
-		1C6EBF4129A5F554004EF81B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EBF4029A5F554004EF81B /* NetworkManager.swift */; };
-		1C97FB6429B5CBDA008EF155 /* ys_networking in Frameworks */ = {isa = PBXBuildFile; productRef = 1C97FB6329B5CBDA008EF155 /* ys_networking */; };
+		1C9626FC29DBE53D009172F5 /* MainNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9626FB29DBE53D009172F5 /* MainNavigationCoordinator.swift */; };
+		1C96270129DBF357009172F5 /* ImageDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96270029DBF357009172F5 /* ImageDetailCoordinator.swift */; };
+		1C96270329DBF408009172F5 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96270229DBF408009172F5 /* ImageDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1850DE29DA6D1B00274527 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1C1850E129DA6EFE00274527 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C1850E629DA71E000274527 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1C1850E929DA9E1400274527 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		1C6EBF2829A5EE71004EF81B /* iOSTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6EBF2B29A5EE71004EF81B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6EBF2F29A5EE71004EF81B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +35,9 @@
 		1C6EBF3429A5EE72004EF81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6EBF3729A5EE72004EF81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6EBF3929A5EE72004EF81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C6EBF4029A5F554004EF81B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1C9626FB29DBE53D009172F5 /* MainNavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationCoordinator.swift; sourceTree = "<group>"; };
+		1C96270029DBF357009172F5 /* ImageDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailCoordinator.swift; sourceTree = "<group>"; };
+		1C96270229DBF408009172F5 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +45,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C97FB6429B5CBDA008EF155 /* ys_networking in Frameworks */,
+				1C66EED329D4ED1B00D46776 /* ys_networking in Frameworks */,
+				1C1850DA29DA6BA100274527 /* ys_coordinator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C1850DB29DA6CFF00274527 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1C1850E829DA9DF400274527 /* NavigationController */,
+				1C1850DD29DA6D1000274527 /* Delegate */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1C1850DD29DA6D1000274527 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1C1850DE29DA6D1B00274527 /* AppCoordinator.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1C1850E029DA6E9000274527 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1C9626FD29DBF252009172F5 /* ImageDetail */,
+				1C1850E329DA6F0300274527 /* Main */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1C1850E329DA6F0300274527 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1C1850E529DA6F1200274527 /* Coordinator */,
+				1C1850E429DA6F0B00274527 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1C1850E429DA6F0B00274527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C1850E129DA6EFE00274527 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C1850E529DA6F1200274527 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C1850E629DA71E000274527 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1C1850E829DA9DF400274527 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1C9626FA29DBE529009172F5 /* Coordinator */,
+				1C9626F929DBE4EC009172F5 /* View */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
 		1C6EBF1F29A5EE71004EF81B = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +132,8 @@
 		1C6EBF2A29A5EE71004EF81B /* iOSTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				1C6EBF3F29A5F423004EF81B /* Networking */,
+				1C1850E029DA6E9000274527 /* Component */,
+				1C1850DB29DA6CFF00274527 /* Common */,
 				1C6EBF2B29A5EE71004EF81B /* AppDelegate.swift */,
 				1C6EBF2F29A5EE71004EF81B /* ViewController.swift */,
 				1C6EBF3129A5EE71004EF81B /* Main.storyboard */,
@@ -69,12 +144,45 @@
 			path = iOSTemplate;
 			sourceTree = "<group>";
 		};
-		1C6EBF3F29A5F423004EF81B /* Networking */ = {
+		1C9626F929DBE4EC009172F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1C6EBF4029A5F554004EF81B /* NetworkManager.swift */,
+				1C1850E929DA9E1400274527 /* MainNavigationController.swift */,
 			);
-			path = Networking;
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C9626FA29DBE529009172F5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C9626FB29DBE53D009172F5 /* MainNavigationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1C9626FD29DBF252009172F5 /* ImageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1C9626FF29DBF27F009172F5 /* Coordinator */,
+				1C9626FE29DBF270009172F5 /* View */,
+			);
+			path = ImageDetail;
+			sourceTree = "<group>";
+		};
+		1C9626FE29DBF270009172F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C96270229DBF408009172F5 /* ImageDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C9626FF29DBF27F009172F5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C96270029DBF357009172F5 /* ImageDetailCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +202,8 @@
 			);
 			name = iOSTemplate;
 			packageProductDependencies = (
-				1C97FB6329B5CBDA008EF155 /* ys_networking */,
+				1C66EED229D4ED1B00D46776 /* ys_networking */,
+				1C1850D929DA6BA100274527 /* ys_coordinator */,
 			);
 			productName = iOSTemplate;
 			productReference = 1C6EBF2829A5EE71004EF81B /* iOSTemplate.app */;
@@ -125,7 +234,8 @@
 			);
 			mainGroup = 1C6EBF1F29A5EE71004EF81B;
 			packageReferences = (
-				1C97FB6229B5CBDA008EF155 /* XCRemoteSwiftPackageReference "ys_networking" */,
+				1C66EED129D4ED1B00D46776 /* XCRemoteSwiftPackageReference "ys_networking" */,
+				1C1850D829DA6BA100274527 /* XCRemoteSwiftPackageReference "ys_coordinator" */,
 			);
 			productRefGroup = 1C6EBF2929A5EE71004EF81B /* Products */;
 			projectDirPath = "";
@@ -154,9 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6EBF4129A5F554004EF81B /* NetworkManager.swift in Sources */,
+				1C1850EA29DA9E1400274527 /* MainNavigationController.swift in Sources */,
+				1C96270129DBF357009172F5 /* ImageDetailCoordinator.swift in Sources */,
+				1C1850DF29DA6D1B00274527 /* AppCoordinator.swift in Sources */,
 				1C6EBF3029A5EE71004EF81B /* ViewController.swift in Sources */,
+				1C9626FC29DBE53D009172F5 /* MainNavigationCoordinator.swift in Sources */,
 				1C6EBF2C29A5EE71004EF81B /* AppDelegate.swift in Sources */,
+				1C1850E729DA71E000274527 /* MainCoordinator.swift in Sources */,
+				1C96270329DBF408009172F5 /* ImageDetailViewController.swift in Sources */,
+				1C1850E229DA6EFE00274527 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -376,20 +492,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1C97FB6229B5CBDA008EF155 /* XCRemoteSwiftPackageReference "ys_networking" */ = {
+		1C1850D829DA6BA100274527 /* XCRemoteSwiftPackageReference "ys_coordinator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yoonjason/ys_coordinator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		1C66EED129D4ED1B00D46776 /* XCRemoteSwiftPackageReference "ys_networking" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yoonjason/ys_networking";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
+				minimumVersion = 1.0.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1C97FB6329B5CBDA008EF155 /* ys_networking */ = {
+		1C1850D929DA6BA100274527 /* ys_coordinator */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1C97FB6229B5CBDA008EF155 /* XCRemoteSwiftPackageReference "ys_networking" */;
+			package = 1C1850D829DA6BA100274527 /* XCRemoteSwiftPackageReference "ys_coordinator" */;
+			productName = ys_coordinator;
+		};
+		1C66EED229D4ED1B00D46776 /* ys_networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C66EED129D4ED1B00D46776 /* XCRemoteSwiftPackageReference "ys_networking" */;
 			productName = ys_networking;
 		};
 /* End XCSwiftPackageProductDependency section */
