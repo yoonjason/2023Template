@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/yoonjason/ys_networking",
       "state" : {
-        "revision" : "246a23f5f66a2e8928a097024544479ebc876895",
-        "version" : "1.0.7"
+        "revision" : "fedc371c0529bb3449644e2b72dc0a07dcb04031",
+        "version" : "1.0.8"
       }
     }
   ],

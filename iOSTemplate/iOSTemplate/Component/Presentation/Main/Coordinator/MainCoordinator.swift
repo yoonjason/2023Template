@@ -27,6 +27,8 @@ class MainCoordinatorImplementation: Coordinator {
         //MainViewConroller
         guard let vc = new(name: "MainViewController", storyboard: "Main") as? MainViewController else { return }
         vc.coordinator = self
+        vc.title = "???"
+        vc.navigationController?.isNavigationBarHidden = true
         naviagtionController.pushViewController(vc, animated: true)
     }
 }

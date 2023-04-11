@@ -39,8 +39,7 @@ class ViewController: UIViewController {
             }
         }
         
-        
-        networkiManager.fetchData(withUrlString: "https://etoland.co.kr/data/daumeditor10/230401/thumbnail3/20098316803448391.jpg") { [weak self] image in
+        networkiManager.fetchImage(withUrlString: "https://etoland.co.kr/data/daumeditor10/230401/thumbnail3/20098316803448391.jpg") { [weak self] image in
             guard let weakSelf = self else { return }
             weakSelf.imageView.image = image
         }

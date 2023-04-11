@@ -23,7 +23,6 @@ public class AppCoordinator: Coordinator {
     }
     
     public func start() {
-//        let mainCoordinator = MainCoordinatorImplementation(window: window)
         let naviCoordinator = MainNavigationCoordinatorImplementation(window: window)
         coordinate(to: naviCoordinator)
     }
